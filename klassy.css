@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 90px;
+
+}
+
+.headercenter {
+    width: 80%;
+    height: 90px;
+    margin: 0 auto;
+}
+
+
+.logo {
+    width: 40%;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 18px;
+    float: left;
+}
+
+.nav {
+    width: 40%;
+    height: 80px;
+    float: right;
+
+}
+
+.Navbar {
+    list-style: none;
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 1rem;
+    position: relative;
+}
+
+
+
+a {
+    display: block;
+    width: 80px;
+    color: black;
+    text-decoration-line: none;
+
+}
+
+a:hover {
+    color: red;
+}
+
+.dropdown {
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(247, 228, 230);
+    width: 150px;
+    height: 120px;
+}
+
+.dropdown li A {
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+
+}
+
+.dropdown li A:hover {
+    background-color: aliceblue;
+    font-size: 15px;
+}
+
+.Navbar li:nth-child(5):hover .dropdown {
+    display: block;
+
+}
+
+.mainbody {
+    width: 100%;
+    height: 700px;
+    background-image: url(../Images/top-left-bg.jpg);
+    display: flex;
+
+}
+
+.body {
+    width: 35%;
+    height: 700px;
+    background-image: url(../Images/top-left-bg.jpg);
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    float: left;
+}
+
+.body h1 {
+    font-family: cursive;
+    margin-top: 10px;
+}
+
+
+.body h4 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.button {
+    background-color: white;
+    color: rgba(230, 54, 54, 0.95);
+    border: none;
+    text-align: center;
+    padding: 20px 30px 20px 40px;
+    margin: 10px 3px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button:hover {
+    background-color: rgba(236, 222, 222, 0.966);
+}
+
+
+
+.slide img {
+    width: 100%;
+    height: 700px;
+}
+
+.slide {
+    width: 65%;
+    height: 700px;
+    float: right;
+}
+
+.aboutbody {
+    width: 100%;
+    height: 500px;
+}
+
+.aboutcenter {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.aboutus {
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.about-img {
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    background-size: cover;
+    background-image: url(../Images/about-video-bg.jpg);
+}
+
+.page3 {
+    width: 100%;
+    height: 600px;
+
+}
+
+.menu1 {
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 100px;
+}
+
+.menuing {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.chef {
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+}
+
+.chefcenter {
+    width: 80%;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.cheftext {
+    width: 30%;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+.cheftext p{
+margin-bottom: 10px;
+}
+
+.chefsec {
+    width: 100%;
+    height: 380px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chefpic {
+    width: 30%;
+    height: 380px;
+    border: 1px solid black;
+}
+
+.cheftop {
+    width: 95%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+.chefbottom {
+    width: 95%;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.reservation {
+    width: 100%;
+    height: 700px;
+    background-image: url(../Images/reservation-bg.jpg);
+
+}
+
+.reservationcenter {
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.contact {
+    width: 50%;
+    height: 700px;
+}
+
+.reservationtext {
+    width: 100%;
+    height: 300px;
+    color: white;
+    padding-top: 100px;
+}
+
+.reservationcontact {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.reservationcontact1 {
+    width: 45%;
+    height: 180px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+
+
+}
+
+.reservationtable {
+    width: 50%;
+    height: 700px;
+    position: relative;
+}
+
+.form {
+    width: 80%;
+    height: 500px;
+    border-radius: 5px;
+    top: 100px;
+    left: 80px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.formcontent {
+    width: 100%;
+    height: 430px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 20px;
+}
+
+.formcontent input {
+    width: 45%;
+    height: 40px;
+    margin: 0;
+}
+
+.formcontent select {
+    width: 45%;
+    height: 40px;
+    margin: 0;
+}
+
+.inputcontent {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+
+}
+
+.message {
+    width: 100%;
+    height: 100px;
+
+}
+
+.message input {
+    width: 100%;
+    height: 100px;
+}
+
+.regestration-button{background-color: rgba(230, 54, 54, 0.95) ;
+    color:aliceblue;
+     border: 1px solid rgba(230, 54, 54, 0.95);
+    text-align: center;
+    padding: 20px 30px 20px 40px;
+    margin: 10px 3px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#fb5849 ;
+}
+
+.offer {
+    width: 100%;
+    height: 750px;
+}
+
+.offer-center {
+    width: 80%;
+    height: 750px;
+    margin: 0 auto;
+}
+
+.offertext {
+    width: 40%;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+
+}
+
+.offertext p {
+    color: rgb(219, 55, 55);
+    padding-bottom: 20px;
+}
+
+.food {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.meal {
+    width: 30%;
+    height: 125px;
+}
+
+.meal span {
+    text-align: center;
+    padding-left: 40px;
+}
+
+.last {
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+.lastsection {
+    width: 50%;
+    height: 450px;
+}
+
+.mealmenu {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuimg {
+    width: 20%;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.menutext {
+    width: 50%;
+    height: 100px;
+    margin-top: 20px;
+padding: 10px;
+}
+
+
+.menuprice{
+    width: 20%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: rgb(234, 75, 75);
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    background:#fb5849;
+    position: relative;
+
+}
+
+.icon{
+    width: 20%;
+    height: 60px;
+    position:absolute;
+left: 150px;
+top: 40px;
+}
+
+.whitelogo{
+    width: 20%;
+    height: 100px;
+    position:absolute;
+left: 600px;
+top: 40px;
+}
+
+.copyright{
+    width: 20%;
+    height: 100px;
+    position: absolute;
+    right: 150px;
+    top: 40px;
+    text-align: right;
+    color: white;
+}
+    
